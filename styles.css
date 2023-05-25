@@ -1,0 +1,332 @@
+
+
+ body{
+    margin: 0 auto;
+    position: relative; 
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+    color: #333133;
+  }
+  
+  p {
+      font-size: 30px;
+      padding: 40px;
+  }
+  
+  .nav-banner {
+    display: grid;
+    background-image: url("https://www.travelandleisure.com/thmb/GpkLuKkBFnrqBK1NTZClhaapfqM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/carlsbad-california-flower-fields-03-CASBLOOM0122-bbb0c71725054693a8a81bcb7b2abb20.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    background-attachment: fixed;
+  }
+  
+   .title-link {
+    
+    background-color: rgba(250, 172, 249, .3);
+    height: 150px;
+    
+  } 
+  
+  .title-link h1 {
+    font-family: 'Jost', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 90px;
+  }
+  
+  .bottom-nav {
+    background-color:rgba(255, 186, 246, .7);
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .bottom-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 100%;
+    padding: 0 22px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+    font-size: 25px;
+    
+  }
+  
+  h2 {
+    font-size: 45px;
+  }
+  
+  .content h2 {
+    margin: 20px 25px;
+  }
+  
+ /* .about-sentences {
+    height: 90px;
+  } */
+  .stuff-list img {
+    width: 630px;
+    height: 600px;
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .stuff-list {
+    margin: 30px 10px 40px;
+    border: 1px solid rgb(132, 233, 147);
+    border-radius: 7px;
+    display: inline-block;
+    width: 680px;
+  }
+  
+  .stuff-list ul {
+    text-decoration: none;
+ 
+  }
+  
+  .stuff-list li {
+    padding: 30px 10px;
+    font-size: 35px;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: #f768d8;
+  }
+  
+  a:hover {
+    color: #4dbd5e;
+  }
+  
+#places {
+    text-align: center;
+    margin-top: 60px;
+  }
+  .slideshow {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .slideshow img {
+    height: 600px;
+    width: 800px;
+    border-radius: 7px;
+  }
+  
+  .description {
+  
+    text-align: center;
+  }
+  
+  .go-to h2 {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .places {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .places img {
+    height: 600px;
+    width: 800px;
+    border-radius: 7px;
+  }
+
+.hobbies-table {
+  margin-left: auto;
+    margin-right: auto;
+
+}
+  
+
+.likes-table {
+    
+    display: block;
+    font-size: 42px;
+    
+    /* margin-left: 230px; */
+    line-height: 80px;
+  }
+
+  .likes-table h2 {
+    text-align: center;
+  }
+  
+  .how-much {
+    padding-left: 60px;
+  }
+  
+  .table-heading {
+    
+    
+    font-weight: 300;
+    font-size: 48px;
+  }
+  #hobbie-column {
+    
+    border-collapse: collapse;
+  }
+  
+  
+ .animation {
+  position: relative;
+  margin: 90px auto;
+  height: 350px;
+  width: 100%;
+  background-color: #3fc5d4;
+  padding-top: 140px;
+}
+
+.animation img {
+    padding-top: 1px;
+}
+
+.dog-move {
+   position: relative;
+  animation: dogmove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes dogmove {
+  from {left: 1200px;}
+  to {left: -500px;}
+}
+
+.star-icon {
+  color: lightblue; /* colors the star's outline*/
+  font-size: 34px;
+  position: relative;
+}
+
+
+.star-icon.full:before {
+  color: pink; /* fills in the star*/
+  content: '\2605'; /* Full star in UTF8 */
+  position: absolute;
+  left: 0;
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  
+}
+
+.star-icon.half:before {
+  color: turquoise;/* fills in the half star*/
+  content: '\2605'; /* Full star in UTF8 */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  
+}
+
+.fun_video {
+  width: 100%;
+  text-align: center;
+  padding-top: 195px;
+}
+
+
+
+
+footer {
+  margin-top: 120px;
+  border-top: 1px solid #525866;;
+  background-color:rgba(255, 186, 246, .7);
+  
+  padding: 12px;
+  font-size: 12px;
+ 
+  align-items: center;
+}
+
+footer p {
+  flex-grow: 1;
+  padding-left: 1em;
+}
+
+ /*
+
+footer {
+  margin-top: 120px;
+  border-top: 1px solid #525866;;
+  background-color:rgba(255, 186, 246, .7);
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  padding: 1em 2em;
+  align-items: center;
+}
+
+
+
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #002e54;
+  color: #fff;
+  border-top: 3px solid #cdb684;
+}
+
+
+
+
+
+footer {
+  border-top: 1px solid grey;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightpink;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.animation p {
+    font-size: 150px;
+    
+    text-align: center;
+}
+
+
+  
+  .links li {
+    
+    padding: 6px;
+    font-size: 1.2rem;
+    color: pink;
+    float: right;
+    padding: 20px;
+    
+  }
+  
+  
+  - flip image
+  organize form
+
+  rate events with list
+  
+  video games: rate games with a table
